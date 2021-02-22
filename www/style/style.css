@@ -1,0 +1,197 @@
+body {
+	font-size: 12px;
+	font-family: tahoma;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.red{background-color: crimson; font : normal 12px tahoma; text-align: center;font-weight: bold;}
+.orange{background-color: orange;font : normal 12px tahoma;text-align: center;font-weight: bold;}
+.green{background-color: lightgreen;font : normal 12px tahoma;text-align: center;font-weight: bold;}
+.white{background-color: white;font : normal 12px tahoma;text-align: center;font-weight: bold;}
+
+#overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.5;
+        z-index: 10000;
+}
+.head{font : normal 12px tahoma; text-align: center;font-weight: bold;}
+.description{font : normal 11px tahoma; text-align:center;word-wrap:break-word;}
+.ldesc{font : normal 10px tahoma; text-align:left;word-wrap:break-word;display:inline-block;margin-right:5px;margin-bottom:5px;background-color:#a9a9a9;}
+.maintable{background-color:#c0c0c0;border: 3px solid black; border-collapse: colapse; }
+tr.computer{background-color:gainsboro;display: block;border: 2px solid black;margin-bottom: 5px;}
+.hostname{border: 1px solid black; border-spacing: 0.5rem;background-color:lightskyblue;width:250px;}
+.cpu{border: 1px solid black; border-spacing: 0.5rem;background-color:gainsboro;}
+.ram{border: 1px solid black; border-spacing: 0.5rem;background-color:gainsboro;}
+.disc{border: 1px solid black; border-spacing: 0.5rem;background-color:gainsboro;}
+.discmain{height:100%;}
+.disccontent{}
+.discpart{}
+
+.seltd { 
+        font : normal 10px tahoma;
+        color : #000000;
+}
+
+.seltdh { 
+        font : bold 10px tahoma;
+        color : #000000;
+}
+.formarea {
+        width:480px;
+        height:3em;
+        font : normal 9px tahoma;
+        color : #000000;
+        border:1px #195FAD solid;
+        background-color : #FFFFCC;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        color:#000000;
+        text-shadow:0px 1px 0px #2f6627;
+}
+
+.formbutton {
+        font-size: 9pt; 
+        font-family: tahoma; 
+        font-weight:bold;
+        background-color : #BFCAD8; 
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px; 
+        border-radius:4px;
+        cursor:pointer;
+        color:#000000;
+        text-shadow:0px 1px 0px #2f6627;
+}
+
+.formbutton.green { background-color: #00cc00; }
+
+.formlabel {
+        font-family: tahoma;
+        font : normal 10px tahoma;
+        color : #000000;
+}
+
+.forminput {
+        border:1px #195FAD solid;
+        background-color : #FFFFCC; 
+        font : normal 9px tahoma;
+        color : #000000;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        color:#000000;
+        text-shadow:0px 1px 0px #2f6627;
+}
+.formselect {
+        border:1px #195FAD solid;
+        background-color : #FFFFCC; 
+        font : normal 9px tahoma;
+        color : #000000;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        color:#000000;
+        text-shadow:0px 1px 0px #2f6627;
+}
+.menuselect {
+        border:1px #195FAD solid;
+        background-color : #FFFFCC; 
+        font : normal 14px tahoma;
+        color : #000000;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        color:#000000;
+        text-shadow:0px 1px 0px #2f6627;
+}
+
+.pagenavtable {
+        width:300px;
+}
+
+.pagenavtd {
+        font-family: tahoma;
+        font : bold 10px tahoma;
+        color : red;
+}
+.pagenavn {
+        font-family: tahoma;
+        font : bold 10px tahoma;
+        color : #000000;
+}
+
+.pagenav:link { 
+        color: red;
+        text-decoration: none;
+        font-family: tahoma;
+        font : bold 10px tahoma;        
+}
+.pagenav:visited {
+        color: red;
+        text-decoration: none;
+        font-family: tahoma;
+        font : bold 10px tahoma;        
+}
+
+.pagenav:hover {
+        color: blue;
+        text-decoration: none;  
+        font-family: tahoma;
+        font : bold 10px tahoma;        
+}
+
+.black_overlay{
+        visibility:hidden;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.6;
+        opacity:.60;
+        filter: alpha(opacity=60);
+}
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+.ui-timepicker-div .ui_tpicker_unit_hide{ display: none; }
+
+.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input { background: none; color: inherit; border: none; outline: none; border-bottom: solid 1px #555; width: 95%; }
+.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input:focus { border-bottom-color: #aaa; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
+
+/* Shortened version style */
+.ui-timepicker-div.ui-timepicker-oneLine { padding-right: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time, 
+.ui-timepicker-div.ui-timepicker-oneLine dt { display: none; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label { display: block; padding-top: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine dl { text-align: right; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd, 
+.ui-timepicker-div.ui-timepicker-oneLine dl dd > div { display:inline-block; margin:0; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before { content:':'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before { content:'.'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide,
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before{ display: none; }
+.ui-datepicker-trigger { position: relative; top: 4px; }
+
